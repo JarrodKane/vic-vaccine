@@ -68,8 +68,6 @@ export default function Home({ ACCESS_TOKEN }: any) {
     console.log(currentCords);
   }, []);
 
-  const basicCords = { lat: 40.8054, long: -74.0241 };
-
   return (
     <>
       <Head>
@@ -92,19 +90,11 @@ export default function Home({ ACCESS_TOKEN }: any) {
             <button>Search</button>
           </form>
         </div>
-        {startCords === undefined ? (
-          <Map
-            key={uuidv4()}
-            accessToken={ACCESS_TOKEN}
-            startCords={basicCords}
-          />
-        ) : (
-          <Map
-            key={uuidv4()}
-            accessToken={ACCESS_TOKEN}
-            startCords={startCords}
-          />
-        )}
+        <Map
+          key={uuidv4()}
+          accessToken={ACCESS_TOKEN}
+          startCords={startCords}
+        />
       </main>
 
       <footer>

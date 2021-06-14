@@ -1,61 +1,68 @@
-import React, { useState } from "react";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import React, { useState, useEffect, useRef } from "react";
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Popup,
+  useMapEvents,
+  useMap,
+  MapConsumer,
+} from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 import "leaflet-defaulticon-compatibility";
+import { v4 as uuidv4 } from "uuid";
+
+import { LocationMarker } from "./LocationMarker";
 
 // const ACCESS_TOKEN = process.env.MAPBOX_TOKEN;
 
 interface Props {
   accessToken: string;
-  startCords: { lat: number; long: number };
+  startCords: { lat: number; lng: number };
+  data: any;
 }
 
 const Map = (props: Props) => {
-  const { accessToken, startCords } = props;
+  const { accessToken, startCords, data } = props;
+
+  console.log(data);
 
   const [pos, setPost] = useState({
     lat: -37.840935,
-    long: 144.946457,
+    lng: 144.946457,
   });
 
-  const position = [51.505, -0.09];
+  useEffect(() => {
+    if (startCords === undefined) {
+      setPost({ lat: -37.840935, lng: 144.946457 });
+    } else {
+      console.log(startCords);
+      setPost(startCords);
+    }
+  }, []);
 
   return (
     <MapContainer
-      center={[pos.lat, pos.long]}
+      key={uuidv4()}
+      center={pos}
       zoom={13}
-      scrollWheelZoom={false}
+      scrollWheelZoom={true}
       style={{ height: "100%", width: "100%" }}
     >
+      {/* <MyComponent pos={pos} /> */}
+      {/* <MapConsumer>
+        {(map) => {
+          flyTo();
+          return null;
+        }}
+      </MapConsumer> */}
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Marker position={[pos.lat, pos.long]}>
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker>
     </MapContainer>
   );
-
-  // return (
-  //   <MapContainer
-  //     center={[pos.lat, pos.long]}
-  //     zoom={14}
-  //     scrollWheelZoom={false}
-  //     style={{ height: "100%", width: "100%" }}
-  //   >
-  //     <TileLayer
-  //       url={`https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=${accessToken}`}
-  //       attribution='Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>'
-  //     />
-  //     <Marker position={[40.8054, -74.0241]} draggable={true}>
-  //       <Popup>Hey ! I live here</Popup>
-  //     </Marker>
-  //   </MapContainer>
-  // );
 };
 
 export default Map;

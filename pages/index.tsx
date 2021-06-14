@@ -6,29 +6,42 @@ import styles from "../styles/Home.module.css";
 
 import dynamic from "next/dynamic";
 
+import { getVicData } from "../api/VicHealth";
+
 // import { Map } from "../component/Map";
 
-export async function getServerSideProps() {
-  const ACCESS_TOKEN = process.env.NEXT_MAPBOX;
-  console.log(ACCESS_TOKEN);
+// export async function getServerSideProps() {
+//   const ACCESS_TOKEN = process.env.NEXT_MAPBOX;
+//   console.log(ACCESS_TOKEN);
 
-  return {
-    props: {
-      ACCESS_TOKEN,
-    },
-  };
-}
+//   return {
+//     props: {
+//       ACCESS_TOKEN,
+//     },
+//   };
+// }
 
 interface Cords {
   lat: number;
-  long: number;
+  lng: number;
 }
 
 const Map: any = dynamic(() => import("../components/Map") as any, {
   ssr: false,
 });
 
-export default function Home({ ACCESS_TOKEN }: any) {
+// export const getStaticProps = async () => {
+//   const res = await getVicData();
+
+//   return {
+//     props: {
+//       vicData: res,
+//     },
+//     // revalidate: 1,
+//   };
+// };
+
+export default function Home({ ACCESS_TOKEN, vicData }: any) {
   const [startCords, setStartCords] = useState<Cords>();
 
   function success(pos: any) {
@@ -36,7 +49,7 @@ export default function Home({ ACCESS_TOKEN }: any) {
 
     const newCords: Cords = {
       lat: crd.latitude,
-      long: crd.longitude,
+      lng: crd.longitude,
     };
 
     setStartCords(newCords);
@@ -65,7 +78,8 @@ export default function Home({ ACCESS_TOKEN }: any) {
       error,
       options
     );
-    console.log(currentCords);
+
+    getVicData();
   }, []);
 
   return (
@@ -76,39 +90,49 @@ export default function Home({ ACCESS_TOKEN }: any) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={`h-screen w-screen`}>
-        <h1>Find a vaccine in Victoria</h1>
-        <div>
-          <h2>Can I get the vaccine?</h2>
+      <div className={`h-screen w-screen flex flex-col items-center`}>
+        <main className={`w-full h-full`}>
+          <h1>Find a vaccine in Victoria</h1>
           <div>
-            <h4>Are you over 50?</h4>
-            <div>Result</div>
+            <h2>Can I get the vaccine?</h2>
+            <div>
+              <h4>Are you over 50?</h4>
+              <div>Result</div>
+            </div>
+            <form>
+              {/* <label>Location</label> */}
+              {/* <input>Location</input> */}
+              <button>Search</button>
+            </form>
           </div>
-          <form>
-            {/* <label>Location</label> */}
-            {/* <input>Location</input> */}
-            <button>Search</button>
-          </form>
-        </div>
-        <Map
-          key={uuidv4()}
-          accessToken={ACCESS_TOKEN}
-          startCords={startCords}
-        />
-      </main>
+          <div className={`h-5/6 w-5/6`}>
+            <Map
+              data={vicData}
+              key={uuidv4()}
+              accessToken={ACCESS_TOKEN}
+              startCords={startCords}
+            />
+          </div>
+        </main>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={``}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+        <footer>
+          <a
+            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Powered by{" "}
+            <span className={``}>
+              <Image
+                src="/vercel.svg"
+                alt="Vercel Logo"
+                width={72}
+                height={16}
+              />
+            </span>
+          </a>
+        </footer>
+      </div>
     </>
   );
 }

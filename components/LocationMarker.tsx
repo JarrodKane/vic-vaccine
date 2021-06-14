@@ -5,6 +5,7 @@ import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 import "leaflet-defaulticon-compatibility";
 
 interface Props {
+  data: any;
   positions: {
     lat: number;
     lng: number;
@@ -12,8 +13,8 @@ interface Props {
 }
 
 export const LocationMarker = (props: Props) => {
-  const { positions } = props;
-  console.log(positions);
+  const { data, positions } = props;
+  console.log(data);
   const [position, setPosition] = useState(null);
   const map = useMapEvents({
     click() {

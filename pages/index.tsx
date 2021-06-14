@@ -30,17 +30,18 @@ const Map: any = dynamic(() => import("../components/Map") as any, {
   ssr: false,
 });
 
-// export const getStaticProps = async () => {
-//   const res = await getVicData();
+export const getStaticProps = async () => {
+  const res = await getVicData();
 
-//   return {
-//     props: {
-//       vicData: res,
-//     },
-//     // revalidate: 1,
-//   };
-// };
+  return {
+    props: {
+      vicData: res,
+    },
+    // revalidate: 1,
+  };
+};
 
+// TODO remove from using any and use some types instead
 export default function Home({ ACCESS_TOKEN, vicData }: any) {
   const [startCords, setStartCords] = useState<Cords>();
 
@@ -53,11 +54,6 @@ export default function Home({ ACCESS_TOKEN, vicData }: any) {
     };
 
     setStartCords(newCords);
-
-    // console.log("Your current position is:");
-    // console.log(`Latitude : ${crd.latitude}`);
-    // console.log(`Longitude: ${crd.longitude}`);
-    // console.log(`More or less ${crd.accuracy} meters.`);
   }
 
   function error(err: any) {
@@ -78,8 +74,6 @@ export default function Home({ ACCESS_TOKEN, vicData }: any) {
       error,
       options
     );
-
-    getVicData();
   }, []);
 
   return (

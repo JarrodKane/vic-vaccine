@@ -1,3 +1,12 @@
+# Vic Vaccine
+
+Quick and dirty play around with the Vic Health Vaccine center data to try and create an easier to read map.
+
+Essentially it's the same map but you can click the popup details to go right to the centers website.
+It also lists the actual times in the popup.
+
+There will also be direction routing, so that users can search for the closest vaccine center.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

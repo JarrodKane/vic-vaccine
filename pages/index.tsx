@@ -84,21 +84,26 @@ export default function Home({ ACCESS_TOKEN, vicData }: any) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={`h-screen w-screen flex flex-col items-center`}>
-        <main className={`w-full h-full`}>
-          <h1>Find a vaccine in Victoria</h1>
-          <div>
-            <h2>Can I get the vaccine?</h2>
-            <div>
-              <h4>Are you over 50?</h4>
-              <div>Result</div>
+      <div
+        className={`h-screen w-screen flex flex-col items-center bg-gray-200`}
+      >
+        <main className={`flex flex-col items-center w-full h-full`}>
+          <div className={`w-full px-20 p-5 `}>
+            <h1 className={`text-2xl`}>Find a vaccine in Victoria</h1>
+            <div className={``}>
+              <h2 className={`text-lg`}>Can I get the vaccine?</h2>
+              <div className={`flex`}>
+                <h4>Are you over 50?</h4>
+                <div>Result</div>
+              </div>
+              <form>
+                <label>Location</label>
+                {/* <input>Location</input> */}
+                <button>Search</button>
+              </form>
             </div>
-            <form>
-              {/* <label>Location</label> */}
-              {/* <input>Location</input> */}
-              <button>Search</button>
-            </form>
           </div>
+
           <div className={`h-5/6 w-5/6`}>
             <Map
               data={vicData}

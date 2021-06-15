@@ -13,7 +13,7 @@ import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 import "leaflet-defaulticon-compatibility";
 import { v4 as uuidv4 } from "uuid";
 
-import WalkInMarker from "./WalkInMarker";
+import WalkInMarker, { Entry } from "./WalkInMarker";
 
 // const ACCESS_TOKEN = process.env.MAPBOX_TOKEN;
 
@@ -34,16 +34,14 @@ const Map = (props: Props) => {
     lng: 144.946457,
   });
 
+  // If the map gets the startCords, it'll set them to start there, otherwise it'll set the map to default cords of Melbourne
   useEffect(() => {
     if (startCords === undefined) {
       setPost({ lat: -37.840935, lng: 144.946457 });
     } else {
-      // console.log(startCords);
       setPost(startCords);
     }
   }, []);
-
-  const position = [-37.840935, 144.946457];
 
   return (
     <MapContainer
@@ -57,16 +55,9 @@ const Map = (props: Props) => {
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {clinicArr.map((clinic) => {
-        // console.log(clinic.gsx$lat.$t);
+      {clinicArr.map((clinic: Entry) => {
         return <WalkInMarker key={uuidv4()} clinic={clinic} />;
-        // <WalkInMarker key={uuidv4()} clinic={clinic} />;
       })}
-      {/* <Marker position={position}>
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker> */}
     </MapContainer>
   );
 };

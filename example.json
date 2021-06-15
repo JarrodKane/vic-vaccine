@@ -1,0 +1,1165 @@
+{
+  "version": "1.0",
+  "encoding": "UTF-8",
+  "feed": {
+    "xmlns": "http://www.w3.org/2005/Atom",
+    "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+    "xmlns$gsx": "http://schemas.google.com/spreadsheets/2006/extended",
+    "id": {
+      "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values"
+    },
+    "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+    "category": [
+      {
+        "scheme": "http://schemas.google.com/spreadsheets/2006",
+        "term": "http://schemas.google.com/spreadsheets/2006#list"
+      }
+    ],
+    "title": { "type": "text", "$t": "cv-vic-gov-au" },
+    "link": [
+      {
+        "rel": "alternate",
+        "type": "application/atom+xml",
+        "href": "https://docs.google.com/spreadsheets/u/0/d/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/pubhtml"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#feed",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#post",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values"
+      },
+      {
+        "rel": "self",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values?alt\u003djson"
+      }
+    ],
+    "author": [
+      { "name": { "$t": "mhacsweb" }, "email": { "$t": "mhacsweb@gmail.com" } }
+    ],
+    "openSearch$totalResults": { "$t": "24" },
+    "openSearch$startIndex": { "$t": "1" },
+    "entry": [
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cokwr"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "42" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: WES03, shortname: Melbourne Showgrounds (walk ins for 50+ only), location: Melbourne Showgrounds, address: Gate 11, Epsom Rd, suburb: Ascot Vale, addressfull: Gate 11, Epsom Rd, Ascot Vale, lat: -37.78309972, lng: 144.9151492, lastupdated: 5/14/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Melbourne Showgrounds (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cokwr"
+          }
+        ],
+        "gsx$id": { "$t": "42" },
+        "gsx$clinicid": { "$t": "WES03" },
+        "gsx$shortname": {
+          "$t": "Melbourne Showgrounds (walk ins for 50+ only)"
+        },
+        "gsx$location": { "$t": "Melbourne Showgrounds" },
+        "gsx$address": { "$t": "Gate 11, Epsom Rd" },
+        "gsx$suburb": { "$t": "Ascot Vale" },
+        "gsx$addressfull": { "$t": "Gate 11, Epsom Rd, Ascot Vale" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-37.78309972" },
+        "gsx$lng": { "$t": "144.9151492" },
+        "gsx$lastupdated": { "$t": "5/14/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Melbourne Showgrounds (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cpzh4"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "10" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: BAL01, shortname: Mercure Ballarat Hotel and Convention Centre (walk ins for 50+ only), location: Mercure Ballarat Hotel and Convention Centre, address: 613 Main Road, suburb: Ballarat, addressfull: 613 Main Road, Ballarat, lat: -37.57923062, lng: 143.86846, lastupdated: 4/16/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Mercure Ballarat Hotel and Convention Centre (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cpzh4"
+          }
+        ],
+        "gsx$id": { "$t": "10" },
+        "gsx$clinicid": { "$t": "BAL01" },
+        "gsx$shortname": {
+          "$t": "Mercure Ballarat Hotel and Convention Centre (walk ins for 50+ only)"
+        },
+        "gsx$location": {
+          "$t": "Mercure Ballarat Hotel and Convention Centre"
+        },
+        "gsx$address": { "$t": "613 Main Road" },
+        "gsx$suburb": { "$t": "Ballarat" },
+        "gsx$addressfull": { "$t": "613 Main Road, Ballarat" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-37.57923062" },
+        "gsx$lng": { "$t": "143.86846" },
+        "gsx$lastupdated": { "$t": "4/16/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Mercure Ballarat Hotel and Convention Centre (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cre1l"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "15" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: BEN02, shortname: Bendigo Health COVID-19 Vaccination Clinic (walk ins for 50+ only), location: Bendigo Health COVID-19 Vaccination Clinic, address: 113-133 Mollison St, suburb: Bendigo, addressfull: 113-133 Mollison St, Bendigo, lat: -36.76282426, lng: 144.2837797, lastupdated: 5/24/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Bendigo Health COVID-19 Vaccination Clinic (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cre1l"
+          }
+        ],
+        "gsx$id": { "$t": "15" },
+        "gsx$clinicid": { "$t": "BEN02" },
+        "gsx$shortname": {
+          "$t": "Bendigo Health COVID-19 Vaccination Clinic (walk ins for 50+ only)"
+        },
+        "gsx$location": { "$t": "Bendigo Health COVID-19 Vaccination Clinic" },
+        "gsx$address": { "$t": "113-133 Mollison St" },
+        "gsx$suburb": { "$t": "Bendigo" },
+        "gsx$addressfull": { "$t": "113-133 Mollison St, Bendigo" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-36.76282426" },
+        "gsx$lng": { "$t": "144.2837797" },
+        "gsx$lastupdated": { "$t": "5/24/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Bendigo Health COVID-19 Vaccination Clinic (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/chk2m"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "50" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: C1911, shortname: Broadmeadows Town Hall (walk ins for 50+ only), location: DPV Health - Broadmeadows Town Hall, address: 10 Dimboola Road, suburb: Broadmeadows, addressfull: 10 Dimboola Road, Broadmeadows, lat: -37.68256643, lng: 144.917528, lastupdated: 5/28/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Broadmeadows Town Hall (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/chk2m"
+          }
+        ],
+        "gsx$id": { "$t": "50" },
+        "gsx$clinicid": { "$t": "C1911" },
+        "gsx$shortname": {
+          "$t": "Broadmeadows Town Hall (walk ins for 50+ only)"
+        },
+        "gsx$location": { "$t": "DPV Health - Broadmeadows Town Hall" },
+        "gsx$address": { "$t": "10 Dimboola Road" },
+        "gsx$suburb": { "$t": "Broadmeadows" },
+        "gsx$addressfull": { "$t": "10 Dimboola Road, Broadmeadows" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-37.68256643" },
+        "gsx$lng": { "$t": "144.917528" },
+        "gsx$lastupdated": { "$t": "5/28/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Broadmeadows Town Hall (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/ciyn3"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "35" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: MON09, shortname: Rosebud Hospital (walk ins for 50+ only), location: Peninsula Health - Rosebud, address: 1527 Point Nepean Rd, suburb: Capel Sound, addressfull: 1527 Point Nepean Rd, Capel Sound, lat: -38.36158865, lng: 144.885217, lastupdated: 5/7/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Rosebud Hospital (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/ciyn3"
+          }
+        ],
+        "gsx$id": { "$t": "35" },
+        "gsx$clinicid": { "$t": "MON09" },
+        "gsx$shortname": { "$t": "Rosebud Hospital (walk ins for 50+ only)" },
+        "gsx$location": { "$t": "Peninsula Health - Rosebud" },
+        "gsx$address": { "$t": "1527 Point Nepean Rd" },
+        "gsx$suburb": { "$t": "Capel Sound" },
+        "gsx$addressfull": { "$t": "1527 Point Nepean Rd, Capel Sound" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-38.36158865" },
+        "gsx$lng": { "$t": "144.885217" },
+        "gsx$lastupdated": { "$t": "5/7/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Rosebud Hospital (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/ckd7g"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "9" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: AUS09, shortname: Royal Exhibition Building (walk ins for 50+ only), location: Royal Exhibition Building, address: 9 Nicholson Street, suburb: Carlton, addressfull: 9 Nicholson Street, Carlton, lat: -37.80461743, lng: 144.971513, lastupdated: 4/16/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: 15, waitperioddisp: 15 minutes, shortnameclean: Royal Exhibition Building (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/ckd7g"
+          }
+        ],
+        "gsx$id": { "$t": "9" },
+        "gsx$clinicid": { "$t": "AUS09" },
+        "gsx$shortname": {
+          "$t": "Royal Exhibition Building (walk ins for 50+ only)"
+        },
+        "gsx$location": { "$t": "Royal Exhibition Building" },
+        "gsx$address": { "$t": "9 Nicholson Street" },
+        "gsx$suburb": { "$t": "Carlton" },
+        "gsx$addressfull": { "$t": "9 Nicholson Street, Carlton" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-37.80461743" },
+        "gsx$lng": { "$t": "144.971513" },
+        "gsx$lastupdated": { "$t": "4/16/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "15" },
+        "gsx$waitperioddisp": { "$t": "15 minutes" },
+        "gsx$shortnameclean": {
+          "$t": "Royal Exhibition Building (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/clrrx"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "49" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: C1909, shortname: Coburg Uniting Church (walk ins for 50+ only), location: DPV Health - Coburg Uniting Church, address: 19 Victoria Street, suburb: Coburg, addressfull: 19 Victoria Street, Coburg, lat: -37.74321394, lng: 144.9644246, lastupdated: 5/19/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Coburg Uniting Church (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/clrrx"
+          }
+        ],
+        "gsx$id": { "$t": "49" },
+        "gsx$clinicid": { "$t": "C1909" },
+        "gsx$shortname": {
+          "$t": "Coburg Uniting Church (walk ins for 50+ only)"
+        },
+        "gsx$location": { "$t": "DPV Health - Coburg Uniting Church" },
+        "gsx$address": { "$t": "19 Victoria Street" },
+        "gsx$suburb": { "$t": "Coburg" },
+        "gsx$addressfull": { "$t": "19 Victoria Street, Coburg" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-37.74321394" },
+        "gsx$lng": { "$t": "144.9644246" },
+        "gsx$lastupdated": { "$t": "5/19/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Coburg Uniting Church (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cyevm"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "38" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: MON12, shortname: Cranbourne Turf Club (walk ins for 50+ only), location: Cranbourne Turf Club, address: 50 Grant St, suburb: Cranbourne, addressfull: 50 Grant St, Cranbourne, lat: -38.11703261, lng: 145.280115, lastupdated: 4/30/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Cranbourne Turf Club (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cyevm"
+          }
+        ],
+        "gsx$id": { "$t": "38" },
+        "gsx$clinicid": { "$t": "MON12" },
+        "gsx$shortname": {
+          "$t": "Cranbourne Turf Club (walk ins for 50+ only)"
+        },
+        "gsx$location": { "$t": "Cranbourne Turf Club" },
+        "gsx$address": { "$t": "50 Grant St" },
+        "gsx$suburb": { "$t": "Cranbourne" },
+        "gsx$addressfull": { "$t": "50 Grant St, Cranbourne" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-38.11703261" },
+        "gsx$lng": { "$t": "145.280115" },
+        "gsx$lastupdated": { "$t": "4/30/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Cranbourne Turf Club (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cztg3"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "47" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: C1905, shortname: Deer Park IPC Health (walk ins for 50+ only), location: IPC Health - Deer Park, address: 106 Station Road, suburb: Deer Park, addressfull: 106 Station Road, Deer Park, lat: -37.76703817, lng: 144.7757732, lastupdated: 5/7/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Deer Park IPC Health (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cztg3"
+          }
+        ],
+        "gsx$id": { "$t": "47" },
+        "gsx$clinicid": { "$t": "C1905" },
+        "gsx$shortname": {
+          "$t": "Deer Park IPC Health (walk ins for 50+ only)"
+        },
+        "gsx$location": { "$t": "IPC Health - Deer Park" },
+        "gsx$address": { "$t": "106 Station Road" },
+        "gsx$suburb": { "$t": "Deer Park" },
+        "gsx$addressfull": { "$t": "106 Station Road, Deer Park" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-37.76703817" },
+        "gsx$lng": { "$t": "144.7757732" },
+        "gsx$lastupdated": { "$t": "5/7/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Deer Park IPC Health (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/d180g"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "6" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: AUS03, shortname: Northern Hospital (walk ins for 50+ only), location: Northern Health - Epping, address: 185 Cooper Street, suburb: Epping, addressfull: 185 Cooper Street, Epping, lat: -37.65268901, lng: 145.0146309, lastupdated: 4/30/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Northern Hospital (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/d180g"
+          }
+        ],
+        "gsx$id": { "$t": "6" },
+        "gsx$clinicid": { "$t": "AUS03" },
+        "gsx$shortname": { "$t": "Northern Hospital (walk ins for 50+ only)" },
+        "gsx$location": { "$t": "Northern Health - Epping" },
+        "gsx$address": { "$t": "185 Cooper Street" },
+        "gsx$suburb": { "$t": "Epping" },
+        "gsx$addressfull": { "$t": "185 Cooper Street, Epping" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-37.65268901" },
+        "gsx$lng": { "$t": "145.0146309" },
+        "gsx$lastupdated": { "$t": "4/30/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Northern Hospital (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/d2mkx"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "33" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: MON07, shortname: Frankston Hospital (John Madder Hall) (walk ins for 50+ only), location: Peninsula Health - Frankston (John Madder Hall), address: 2 Hastings Rd, suburb: Frankston, addressfull: 2 Hastings Rd, Frankston, lat: -38.15258769, lng: 145.1315498, lastupdated: 5/7/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Frankston Hospital (John Madder Hall) (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/d2mkx"
+          }
+        ],
+        "gsx$id": { "$t": "33" },
+        "gsx$clinicid": { "$t": "MON07" },
+        "gsx$shortname": {
+          "$t": "Frankston Hospital (John Madder Hall) (walk ins for 50+ only)"
+        },
+        "gsx$location": {
+          "$t": "Peninsula Health - Frankston (John Madder Hall)"
+        },
+        "gsx$address": { "$t": "2 Hastings Rd" },
+        "gsx$suburb": { "$t": "Frankston" },
+        "gsx$addressfull": { "$t": "2 Hastings Rd, Frankston" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-38.15258769" },
+        "gsx$lng": { "$t": "145.1315498" },
+        "gsx$lastupdated": { "$t": "5/7/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Frankston Hospital (John Madder Hall) (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cssly"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "40" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: MON14, shortname: Peninsula Health - Bruce Park Hall (walk ins for 50+ only), location: Peninsula Health - Bruce Park Hall, address: Bondi Ave (entry off Margate Ave), suburb: Frankston, addressfull: Bondi Ave (entry off Margate Ave), Frankston, lat: -38.16148113, lng: 145.1389691, lastupdated: 6/2/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: 0, waitperioddisp: No delay, shortnameclean: Peninsula Health - Bruce Park Hall (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cssly"
+          }
+        ],
+        "gsx$id": { "$t": "40" },
+        "gsx$clinicid": { "$t": "MON14" },
+        "gsx$shortname": {
+          "$t": "Peninsula Health - Bruce Park Hall (walk ins for 50+ only)"
+        },
+        "gsx$location": { "$t": "Peninsula Health - Bruce Park Hall" },
+        "gsx$address": { "$t": "Bondi Ave (entry off Margate Ave)" },
+        "gsx$suburb": { "$t": "Frankston" },
+        "gsx$addressfull": {
+          "$t": "Bondi Ave (entry off Margate Ave), Frankston"
+        },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-38.16148113" },
+        "gsx$lng": { "$t": "145.1389691" },
+        "gsx$lastupdated": { "$t": "6/2/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "0" },
+        "gsx$waitperioddisp": { "$t": "No delay" },
+        "gsx$shortnameclean": {
+          "$t": "Peninsula Health - Bruce Park Hall (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cu76f"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "5" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: AUS02, shortname: Heidelberg Repatriation Hospital (walk ins for 50+ only), location: Austin Health - Heidelberg Repatriation Hospital (Acacia Clinic), address: 300 Waterdale Road, suburb: Heidelberg Heights, addressfull: 300 Waterdale Road, Heidelberg Heights, lat: -37.75592855, lng: 145.047419, lastupdated: 4/16/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: 15, waitperioddisp: 15 minutes, shortnameclean: Heidelberg Repatriation Hospital (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cu76f"
+          }
+        ],
+        "gsx$id": { "$t": "5" },
+        "gsx$clinicid": { "$t": "AUS02" },
+        "gsx$shortname": {
+          "$t": "Heidelberg Repatriation Hospital (walk ins for 50+ only)"
+        },
+        "gsx$location": {
+          "$t": "Austin Health - Heidelberg Repatriation Hospital (Acacia Clinic)"
+        },
+        "gsx$address": { "$t": "300 Waterdale Road" },
+        "gsx$suburb": { "$t": "Heidelberg Heights" },
+        "gsx$addressfull": { "$t": "300 Waterdale Road, Heidelberg Heights" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-37.75592855" },
+        "gsx$lng": { "$t": "145.047419" },
+        "gsx$lastupdated": { "$t": "4/16/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "15" },
+        "gsx$waitperioddisp": { "$t": "15 minutes" },
+        "gsx$shortnameclean": {
+          "$t": "Heidelberg Repatriation Hospital (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cvlqs"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "43" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: WES05, shortname: Melbourne Convention and Exhibition Centre (walk ins for 50+ only), location: Melbourne Convention and Exhibition Centre, address: 2 Clarendon Street, suburb: Melbourne CBD, addressfull: 2 Clarendon Street, Melbourne CBD, lat: -37.82525725, lng: 144.9543903, lastupdated: 4/16/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Melbourne Convention and Exhibition Centre (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cvlqs"
+          }
+        ],
+        "gsx$id": { "$t": "43" },
+        "gsx$clinicid": { "$t": "WES05" },
+        "gsx$shortname": {
+          "$t": "Melbourne Convention and Exhibition Centre (walk ins for 50+ only)"
+        },
+        "gsx$location": { "$t": "Melbourne Convention and Exhibition Centre" },
+        "gsx$address": { "$t": "2 Clarendon Street" },
+        "gsx$suburb": { "$t": "Melbourne CBD" },
+        "gsx$addressfull": { "$t": "2 Clarendon Street, Melbourne CBD" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-37.82525725" },
+        "gsx$lng": { "$t": "144.9543903" },
+        "gsx$lastupdated": { "$t": "4/16/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Melbourne Convention and Exhibition Centre (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cx0b9"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "8" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: AUS07, shortname: Ringwood East Community Clinic (Braeside Avenue) (walk ins for 50+ only), location: Ringwood East Community Clinic (Braeside Avenue), address: 304A Maroondah Highway (entry off Braeside Avenue), suburb: Ringwood, addressfull: 304A Maroondah Highway (entry off Braeside Avenue), Ringwood, lat: -37.80815088, lng: 145.2422871, lastupdated: 4/5/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: 15, waitperioddisp: 15 minutes, shortnameclean: Ringwood East Community Clinic (Braeside Avenue) (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/cx0b9"
+          }
+        ],
+        "gsx$id": { "$t": "8" },
+        "gsx$clinicid": { "$t": "AUS07" },
+        "gsx$shortname": {
+          "$t": "Ringwood East Community Clinic (Braeside Avenue) (walk ins for 50+ only)"
+        },
+        "gsx$location": {
+          "$t": "Ringwood East Community Clinic (Braeside Avenue)"
+        },
+        "gsx$address": {
+          "$t": "304A Maroondah Highway (entry off Braeside Avenue)"
+        },
+        "gsx$suburb": { "$t": "Ringwood" },
+        "gsx$addressfull": {
+          "$t": "304A Maroondah Highway (entry off Braeside Avenue), Ringwood"
+        },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-37.80815088" },
+        "gsx$lng": { "$t": "145.2422871" },
+        "gsx$lastupdated": { "$t": "4/5/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "15" },
+        "gsx$waitperioddisp": { "$t": "15 minutes" },
+        "gsx$shortnameclean": {
+          "$t": "Ringwood East Community Clinic (Braeside Avenue) (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/d9ney"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "24" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: LAT05, shortname: Gippsland Regional Sports Complex - Sale (walk ins for 50+ only), location: Gippsland Regional Sports Complex - Sale, address: 116 Cobains Rd, suburb: Sale, addressfull: 116 Cobains Rd, Sale, lat: -38.08850606, lng: 147.0837583, lastupdated: 5/19/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Gippsland Regional Sports Complex - Sale (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/d9ney"
+          }
+        ],
+        "gsx$id": { "$t": "24" },
+        "gsx$clinicid": { "$t": "LAT05" },
+        "gsx$shortname": {
+          "$t": "Gippsland Regional Sports Complex - Sale (walk ins for 50+ only)"
+        },
+        "gsx$location": { "$t": "Gippsland Regional Sports Complex - Sale" },
+        "gsx$address": { "$t": "116 Cobains Rd" },
+        "gsx$suburb": { "$t": "Sale" },
+        "gsx$addressfull": { "$t": "116 Cobains Rd, Sale" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-38.08850606" },
+        "gsx$lng": { "$t": "147.0837583" },
+        "gsx$lastupdated": { "$t": "5/19/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Gippsland Regional Sports Complex - Sale (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/db1zf"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "17" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: GOU01, shortname: Shepparton Showgrounds (walk ins for 50+ only), location: Shepparton Showgrounds - McIntosh Centre, address: Cnr Thompson St and High St, suburb: Shepparton, addressfull: Cnr Thompson St and High St, Shepparton, lat: -36.3812391, lng: 145.4092218, lastupdated: 4/30/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Shepparton Showgrounds (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/db1zf"
+          }
+        ],
+        "gsx$id": { "$t": "17" },
+        "gsx$clinicid": { "$t": "GOU01" },
+        "gsx$shortname": {
+          "$t": "Shepparton Showgrounds (walk ins for 50+ only)"
+        },
+        "gsx$location": { "$t": "Shepparton Showgrounds - McIntosh Centre" },
+        "gsx$address": { "$t": "Cnr Thompson St and High St" },
+        "gsx$suburb": { "$t": "Shepparton" },
+        "gsx$addressfull": { "$t": "Cnr Thompson St and High St, Shepparton" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-36.3812391" },
+        "gsx$lng": { "$t": "145.4092218" },
+        "gsx$lastupdated": { "$t": "4/30/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Shepparton Showgrounds (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/dcgjs"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "39" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: MON13, shortname: Sandown Racecourse (walk ins for 50+ only), location: Sandown Racecourse, address: 591-659 Princes Hwy, suburb: Springvale, addressfull: 591-659 Princes Hwy, Springvale, lat: -37.95018417, lng: 145.1665948, lastupdated: 5/14/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Sandown Racecourse (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/dcgjs"
+          }
+        ],
+        "gsx$id": { "$t": "39" },
+        "gsx$clinicid": { "$t": "MON13" },
+        "gsx$shortname": { "$t": "Sandown Racecourse (walk ins for 50+ only)" },
+        "gsx$location": { "$t": "Sandown Racecourse" },
+        "gsx$address": { "$t": "591-659 Princes Hwy" },
+        "gsx$suburb": { "$t": "Springvale" },
+        "gsx$addressfull": { "$t": "591-659 Princes Hwy, Springvale" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-37.95018417" },
+        "gsx$lng": { "$t": "145.1665948" },
+        "gsx$lastupdated": { "$t": "5/14/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Sandown Racecourse (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/ddv49"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "41" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: WES01, shortname: Sunshine Hospital (walk ins for 50+ only), location: Western Health - Sunshine Hospital, address: 176 Furlong Rd, suburb: St Albans, addressfull: 176 Furlong Rd, St Albans, lat: -37.75926655, lng: 144.8162539, lastupdated: 4/16/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Sunshine Hospital (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/ddv49"
+          }
+        ],
+        "gsx$id": { "$t": "41" },
+        "gsx$clinicid": { "$t": "WES01" },
+        "gsx$shortname": { "$t": "Sunshine Hospital (walk ins for 50+ only)" },
+        "gsx$location": { "$t": "Western Health - Sunshine Hospital" },
+        "gsx$address": { "$t": "176 Furlong Rd" },
+        "gsx$suburb": { "$t": "St Albans" },
+        "gsx$addressfull": { "$t": "176 Furlong Rd, St Albans" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-37.75926655" },
+        "gsx$lng": { "$t": "144.8162539" },
+        "gsx$lastupdated": { "$t": "4/16/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Sunshine Hospital (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/d415a"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "21" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: LAT02, shortname: Traralgon Racecourse (walk ins for 50+ only), location: Traralgon Racecourse, address: 66-110 McNairn Road, suburb: Traralgon East, addressfull: 66-110 McNairn Road, Traralgon East, lat: -38.19640858, lng: 146.5633801, lastupdated: 3/5/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Traralgon Racecourse (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/d415a"
+          }
+        ],
+        "gsx$id": { "$t": "21" },
+        "gsx$clinicid": { "$t": "LAT02" },
+        "gsx$shortname": {
+          "$t": "Traralgon Racecourse (walk ins for 50+ only)"
+        },
+        "gsx$location": { "$t": "Traralgon Racecourse" },
+        "gsx$address": { "$t": "66-110 McNairn Road" },
+        "gsx$suburb": { "$t": "Traralgon East" },
+        "gsx$addressfull": { "$t": "66-110 McNairn Road, Traralgon East" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-38.19640858" },
+        "gsx$lng": { "$t": "146.5633801" },
+        "gsx$lastupdated": { "$t": "3/5/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Traralgon Racecourse (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/d5fpr"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "3" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: ALB04, shortname: Northeast Health Wangaratta (walk ins for 50+ only), location: Northeast Health Wangaratta (WJ Smith Building), address: 10 Clark Street, suburb: Wangaratta, addressfull: 10 Clark Street, Wangaratta, lat: -36.35378659, lng: 146.3119712, lastupdated: 5/28/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -1, waitperioddisp: Walk ins not currently available, shortnameclean: Northeast Health Wangaratta (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/d5fpr"
+          }
+        ],
+        "gsx$id": { "$t": "3" },
+        "gsx$clinicid": { "$t": "ALB04" },
+        "gsx$shortname": {
+          "$t": "Northeast Health Wangaratta (walk ins for 50+ only)"
+        },
+        "gsx$location": {
+          "$t": "Northeast Health Wangaratta (WJ Smith Building)"
+        },
+        "gsx$address": { "$t": "10 Clark Street" },
+        "gsx$suburb": { "$t": "Wangaratta" },
+        "gsx$addressfull": { "$t": "10 Clark Street, Wangaratta" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-36.35378659" },
+        "gsx$lng": { "$t": "146.3119712" },
+        "gsx$lastupdated": { "$t": "5/28/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-1" },
+        "gsx$waitperioddisp": { "$t": "Walk ins not currently available" },
+        "gsx$shortnameclean": {
+          "$t": "Northeast Health Wangaratta (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/d6ua4"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "48" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: C1906, shortname: West Melbourne Cohealth (walk ins for 50+ only), location: Cohealth - West Melbourne, address: 98 Abbotsford Street, suburb: West Melbourne, addressfull: 98 Abbotsford Street, West Melbourne, lat: -37.80535123, lng: 144.9454284, lastupdated: 5/7/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: West Melbourne Cohealth (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/d6ua4"
+          }
+        ],
+        "gsx$id": { "$t": "48" },
+        "gsx$clinicid": { "$t": "C1906" },
+        "gsx$shortname": {
+          "$t": "West Melbourne Cohealth (walk ins for 50+ only)"
+        },
+        "gsx$location": { "$t": "Cohealth - West Melbourne" },
+        "gsx$address": { "$t": "98 Abbotsford Street" },
+        "gsx$suburb": { "$t": "West Melbourne" },
+        "gsx$addressfull": { "$t": "98 Abbotsford Street, West Melbourne" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-37.80535123" },
+        "gsx$lng": { "$t": "144.9454284" },
+        "gsx$lastupdated": { "$t": "5/7/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "West Melbourne Cohealth (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/d88ul"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "2" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: ALB02, shortname: Wodonga Vaccination Hub (walk ins for 50+ only), location: Wodonga Vaccination Hub, address: Suite 2, 182-184 High St (entry off Hovell St), suburb: Wodonga, addressfull: Suite 2, 182-184 High St (entry off Hovell St), Wodonga, lat: -36.12226354, lng: 146.8888583, lastupdated: 4/30/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Wodonga Vaccination Hub (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/d88ul"
+          }
+        ],
+        "gsx$id": { "$t": "2" },
+        "gsx$clinicid": { "$t": "ALB02" },
+        "gsx$shortname": {
+          "$t": "Wodonga Vaccination Hub (walk ins for 50+ only)"
+        },
+        "gsx$location": { "$t": "Wodonga Vaccination Hub" },
+        "gsx$address": {
+          "$t": "Suite 2, 182-184 High St (entry off Hovell St)"
+        },
+        "gsx$suburb": { "$t": "Wodonga" },
+        "gsx$addressfull": {
+          "$t": "Suite 2, 182-184 High St (entry off Hovell St), Wodonga"
+        },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-36.12226354" },
+        "gsx$lng": { "$t": "146.8888583" },
+        "gsx$lastupdated": { "$t": "4/30/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Wodonga Vaccination Hub (walk ins for 50+ only)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/dkvya"
+        },
+        "updated": { "$t": "2021-06-14T22:37:53.840Z" },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": { "type": "text", "$t": "23" },
+        "content": {
+          "type": "text",
+          "$t": "clinicid: LAT04, shortname: Wonthaggi Town Hall (walk ins for 50+ only), location: Wonthaggi Town Hall, address: Baillieu Street East, suburb: Wonthaggi, addressfull: Baillieu Street East, Wonthaggi, lat: -38.60818314, lng: 145.5906434, lastupdated: 5/19/2021, clinicstatus: Open, hours: refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status), waitperiod: -5, waitperioddisp: Wait time to be confirmed, shortnameclean: Wonthaggi Town Hall (walk ins for 50+ only)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1rhgWmbpo2pjKUUc6MGBOG-W2FUinXTnAxEXmi10P8-s/2/public/values/dkvya"
+          }
+        ],
+        "gsx$id": { "$t": "23" },
+        "gsx$clinicid": { "$t": "LAT04" },
+        "gsx$shortname": {
+          "$t": "Wonthaggi Town Hall (walk ins for 50+ only)"
+        },
+        "gsx$location": { "$t": "Wonthaggi Town Hall" },
+        "gsx$address": { "$t": "Baillieu Street East" },
+        "gsx$suburb": { "$t": "Wonthaggi" },
+        "gsx$addressfull": { "$t": "Baillieu Street East, Wonthaggi" },
+        "gsx$directions": { "$t": "" },
+        "gsx$lat": { "$t": "-38.60818314" },
+        "gsx$lng": { "$t": "145.5906434" },
+        "gsx$lastupdated": { "$t": "5/19/2021" },
+        "gsx$clinicstatus": { "$t": "Open" },
+        "gsx$hours": {
+          "$t": "refer to accepting walk ins table for clinic opening hours (check the top of webpage for current walk ins wait time and status)"
+        },
+        "gsx$waitperiod": { "$t": "-5" },
+        "gsx$waitperioddisp": { "$t": "Wait time to be confirmed" },
+        "gsx$shortnameclean": {
+          "$t": "Wonthaggi Town Hall (walk ins for 50+ only)"
+        }
+      }
+    ]
+  }
+}
